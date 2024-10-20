@@ -15,7 +15,7 @@ Install Git, NPM and http-server globally and run the command
 ```bash
 git clone https://github.com/Bulgent/ProjectAthene.git
 cd "ProjectAthene"
-
+npm install -g http-server
 http-server -p 8000 --cors -c-1
 ```
 Then point your browser to http://127.0.0.1:8000
